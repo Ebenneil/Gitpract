@@ -1,5 +1,5 @@
 #!/bin/bash
 for i in $@ 
 do
-echo $i - changes by yetish
+echo $i - changes by eben
 done
