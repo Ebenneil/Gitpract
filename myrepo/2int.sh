@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "enter the first int value"
+echo " enter the first int value "
 read a 
 echo "enter the second int value"
 read b
