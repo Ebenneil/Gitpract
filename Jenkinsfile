@@ -2,8 +2,8 @@ pipeline {
   agent none
   stages {
     stage ('my build') {
+      agent {label 'neil'}
       steps {
-        agent {label 'neil'}
         sh 'mvn package'
         sh 'ls'
       }
