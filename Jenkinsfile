@@ -4,7 +4,7 @@ pipeline {
     stage ('my build') {
       agent { label 'neil'}
       steps {
-        sh 'mvn package'
+        sh 'pwd'
       }
     }
   }
