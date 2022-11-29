@@ -4,7 +4,6 @@ pipeline {
     stage ('my build') {
       steps {
         sh 'mvn package'
-        sh 'ls'
       }
     }
   }
