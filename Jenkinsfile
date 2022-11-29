@@ -1,10 +1,10 @@
 pipeline {
-  agent none
+  agent any
   stages {
     stage ('my build') {
-      agent { label 'neil'}
       steps {
-        sh 'pwd'
+        sh 'mvn package'
+        sh 'ls'
       }
     }
   }
