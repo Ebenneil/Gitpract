@@ -1,8 +1,7 @@
 pipeline {
-  agent none
+  agent any
   stages {
     stage ('my build') {
-      agent {label 'neil'}
       steps {
         sh 'sudo apt install default-jdk'
         sh 'java --version
